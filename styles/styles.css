@@ -130,7 +130,8 @@ img {
   gap: 50px;
   padding-top: 32px;
   padding-bottom: 32px;
-  }
+  display: inline-block;
+}
 
 .contacts {
   display: flex;
@@ -206,6 +207,7 @@ img {
   border-color: transparent;
   letter-spacing: 0.06em;
   color: var(--bac-tex-color);
+  padding: 10px 32px;
 }
 
 .hero-btn:focus,
@@ -431,10 +433,8 @@ img {
 
 .tex-img {
   padding: top 20px;
-  padding-right: ;
-  padding-bottom: ;
-  padding-left: ;
 }
+
 .title-img {
   font-weight: 700;
   font-size: 18px;
@@ -442,7 +442,9 @@ img {
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
   color: var(--header-list-color);
+  margin-bottom: 4px;
 }
+
 .title-img-tex {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
@@ -458,12 +460,5 @@ img {
 }
 
 .border-line {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  border: 1px solid #ececec;
-  border-top: transparent;
-  border-left: transparent;
-  border-right: transparent;
+  border-bottom: 1px solid #ececec;
 }
