@@ -145,6 +145,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--paragraf-tex-color);
+  display: inline-block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -156,6 +157,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--paragraf-tex-color);
   padding-top: 32px;
+  display: inline-block;
   padding-bottom: 32px;
 }
 
